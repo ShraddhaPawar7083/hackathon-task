@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       {/* <Navbar /> */}
-      {/* <LeftNavbar /> */}
-      <Login/>
+      <LeftNavbar />
+      {/* <Login/> */}
       {/* <Home /> */}
       {/* <Categories/> */}
     </div>
