@@ -1,0 +1,19 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: darkmagenta;
+    padding: 10px; 
+  }
+  
+  .navbar-logo {
+    text-align: center; 
+  }
+  
+  .navbar-logo img {
+    max-height: 35px;
+    width: 35px;
+  }
+  
+  
+
+  

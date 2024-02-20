@@ -1,0 +1,26 @@
+/* LeftNavbar.css */
+
+.left-navbar {
+  background-color: whitesmoke;
+  padding: 10px;
+  height: 90.5vh;
+  width: 25%; 
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 1rem;
+}
+
+.page-icon-1,
+.next-button-1 {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px; 
+}
+.next-button-1{
+  margin-left: 16rem;
+}
+
