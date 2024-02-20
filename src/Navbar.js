@@ -3,10 +3,13 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
+    <nav className="navbar-2">
+      <div className="navbar-logo-2">
+        <div className='nav-2'>
         <img src="http://localhost:3000/images/digitalflake_logo.jpg" alt="Logo" className="logo" />
-        <img className="logo-img-1" src="/images/Logout.jpg" alt="faq-img" />
+        <h3>digitalflake</h3>
+        </div>
+        <img className="logo-img-2" src="/images/icons.png" alt="faq-img" />
       </div>
     </nav>
   );

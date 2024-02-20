@@ -7,7 +7,7 @@
   } */
   
   .btn {
-    width: 27vw;
+    width: 28vw;
     text-align: center;
     background: darkslateblue;
     color: white;
@@ -36,9 +36,18 @@
   color: grey;
 }
 .background-image {
-  background-image: url("https://s3-alpha-sig.figma.com/img/4f8b/6e9d/609c7731d037f1b65d00906a7bc1e241?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lb~DCvDWLcFkDtiNVfcZqGTXnoC7RSzqCMYJZQ~4GU-MdWV0roKSRgV3WlvM7Ovg1xwGhb9PNOzuerlNAKmkvMirm7jRGk0d4RNkOCEoJnsSCOTgXJsJW-ToggzcXjMHABCewk9rAfXUkNlkHjvP9o-dOHQHN5ZXFNkyJdfJ5VCpQ7Z1vuu6lOt0y-jHcIFP5GidiRZ0aP2L3gSc5ymrXeNLIQ8uhctZMvECoz2wHU4Nj22bwASU0aOCGesuJkk46rwUxTbd82LAkXjFAhZ7ruPMyOWN3gGkpv4Mfj37quE7ywEuesibtp6DEC7tNA4zOKPbek89cTLAcDycrvJszQ__");
+  /* background-image: url("https://s3-alpha-sig.figma.com/img/4f8b/6e9d/609c7731d037f1b65d00906a7bc1e241?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lb~DCvDWLcFkDtiNVfcZqGTXnoC7RSzqCMYJZQ~4GU-MdWV0roKSRgV3WlvM7Ovg1xwGhb9PNOzuerlNAKmkvMirm7jRGk0d4RNkOCEoJnsSCOTgXJsJW-ToggzcXjMHABCewk9rAfXUkNlkHjvP9o-dOHQHN5ZXFNkyJdfJ5VCpQ7Z1vuu6lOt0y-jHcIFP5GidiRZ0aP2L3gSc5ymrXeNLIQ8uhctZMvECoz2wHU4Nj22bwASU0aOCGesuJkk46rwUxTbd82LAkXjFAhZ7ruPMyOWN3gGkpv4Mfj37quE7ywEuesibtp6DEC7tNA4zOKPbek89cTLAcDycrvJszQ__"), linear-gradient(180,rgba(250, 240, 240, 0.247),rgba(249, 249, 234, 0.196)); */
+  background-image: linear-gradient(180deg
+ ,rgba(26, 159, 148, 0.196),rgba(43, 121, 117, 0.265)),url('https://s3-alpha-sig.figma.com/img/4f8b/6e9d/609c7731d037f1b65d00906a7bc1e241?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lb~DCvDWLcFkDtiNVfcZqGTXnoC7RSzqCMYJZQ~4GU-MdWV0roKSRgV3WlvM7Ovg1xwGhb9PNOzuerlNAKmkvMirm7jRGk0d4RNkOCEoJnsSCOTgXJsJW-ToggzcXjMHABCewk9rAfXUkNlkHjvP9o-dOHQHN5ZXFNkyJdfJ5VCpQ7Z1vuu6lOt0y-jHcIFP5GidiRZ0aP2L3gSc5ymrXeNLIQ8uhctZMvECoz2wHU4Nj22bwASU0aOCGesuJkk46rwUxTbd82LAkXjFAhZ7ruPMyOWN3gGkpv4Mfj37quE7ywEuesibtp6DEC7tNA4zOKPbek89cTLAcDycrvJszQ__');
   background-size: cover;
   background-position: center;
-  background-color: rgba(255, 255, 255, 0.5); /* Apply opacity to the background color */
 }
+.card{
+  border-radius: 1rem;
+  border: 5px solid whitesmoke;
+}
+/* .login-main{
+  display: flex;
+  align-items: start;
+} */
 

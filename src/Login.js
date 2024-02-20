@@ -13,13 +13,13 @@ function Login() {
         
     }
     return (
-        <div className='background-image d-flex vh-100 justify-content-center align-items-center'>
-        <div className='p-3 bg-white w-35 form-container'>
+        <div className='background-image d-flex vh-100 justify-content-center align-items-center login-main'>
+        <div className='p-3 bg-white w-35 form-container card'>
                 <div className='logo-container'>
                         <img src="http://localhost:3000/images/digitalflake_logo.jpg" alt="Logo" className="logo" />
                         <h4>Welcome to Digitalflake Admin</h4>
                 </div>
-                    <Box
+                    <Box 
                         component="form"
                         sx={{
                             '& .MuiTextField-root': { m: 1, width: '40ch' },

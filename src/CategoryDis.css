@@ -1,0 +1,24 @@
+.fields{
+    margin-left: 24rem;
+    /* width: 5rem; */
+    height: 3rem;
+}
+
+.cancel-btn{
+    width: 8vw;
+     text-align: center;
+    background: white;
+    color: black;
+    border-radius: 12px;
+    margin-left: 5rem;
+    margin-top: 23rem;
+    margin-left: 60rem;
+  }
+  .save-btn{
+    width: 8vw;
+     text-align: center;
+    background: darkmagenta;
+    color: white;
+    border-radius: 12px;
+    margin-left: 5rem;
+  }
